@@ -1,6 +1,6 @@
 # notification_handler_plugin
 
-Plugin which allow handle tapping all notifications from the ios side.
+Plugin which allow handle tapping by the notifications from the ios side.
 
 ## Getting Started
 
