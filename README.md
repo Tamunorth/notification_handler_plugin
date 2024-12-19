@@ -1,6 +1,6 @@
 # notification_handler_plugin
 
-A new Flutter plugin project.
+Plugin which allow handle tapping all notifications from the ios side.
 
 ## Getting Started
 
