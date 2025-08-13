@@ -30,7 +30,7 @@ class NotificationData {
       final aps = Map<String, dynamic>.from(json['aps'] ?? []);
       return NotificationData(
         title: aps['alert']['title'],
-        body: aps['alert]['body'],
+        body: aps['alert']['body'],
         payload: json,
       );
     } else {
