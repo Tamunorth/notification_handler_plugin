@@ -29,8 +29,8 @@ class NotificationData {
     if (json.containsKey("intercom_push_type")) {
       final aps = Map<String, dynamic>.from(json['aps'] ?? []);
       return NotificationData(
-        title: aps['title'],
-        body: aps['body'],
+        title: aps['alert']['title'],
+        body: aps['alert]['body'],
         payload: json,
       );
     } else {
